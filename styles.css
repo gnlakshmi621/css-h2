@@ -1,0 +1,120 @@
+ 
+ 
+ body{
+    margin:0px;
+    background-image: url("./download\ \(1\).jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:10px groove green ;
+    
+ }
+ 
+ .uppercontainer{
+    margin:10px;
+    display:flex;
+    flex-wrap:nowrap;
+     justify-content: center; 
+     text-align: center;
+ }
+.box{
+    font-size:larger;
+    font-style: italic;
+    background-color:black ;
+    border:8px solid red ;
+    font-weight:bold ;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+   
+}
+.leftbox{
+    height:125px ;
+    width: 315px;
+
+}
+.midbox{
+    padding: 15px;
+    height:40px ;
+    width: 600px;
+   margin-left:-100px; 
+   margin-right:100px;
+}
+.rightbox{
+    height:125px ;
+    width: 315px;
+}
+.midcontainer{
+   
+    display:flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+  
+}
+.circle{
+   
+    border:10px solid gray;
+    border-radius:50%;
+    background-color:teal;
+   height:410px;
+    width:410px;
+   
+}
+.circletext{
+    margin-top: 100px;
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: maroon;
+    text-decoration: underline;  
+}
+.form{
+   padding-top: 10px;
+    border: 8px dashed red;
+    text-align: center;
+    color: rgb(140, 46, 12);
+    font-weight: bold;
+    font-size: large;
+    background-color: white;
+    /* height: 600px;
+width: 200px; */
+}
+form{
+    padding: 25px;
+}
+#large{
+    font-size: x-large;
+    font-style:normal;
+}
+.menu{
+    margin-left: 400px;
+    margin-top: 50px;
+    padding: 20px;
+    height:40px;
+   width: 300px;
+}
+.lowercontainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around ;
+    margin-bottom: 10px;
+}
+.menubox{
+    height: 350px;
+    width: 425px;
+    background-color:cyan;
+    border: 5px solid green;
+    border-radius: 40px;
+    margin-bottom: 70px;
+    color:blue;
+    text-align: center;
+}
+.hight{
+    height: 300px;
+}
+h3{
+    font-weight: bold;
+    font-size: xx-large;
+  
+}
